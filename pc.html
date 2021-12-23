@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Styles.css') }}">
+  
+	<title> Air Pollution </title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <ul class="d1">
+    <li style="width: 30%; text-align-last: left;" class="d2"><a  href="#"class="d3"> Air Pollution Home Page </a></li>
+    
+  </ul>
+  
+<table style="background-color: rgb(236, 248, 248); height:10%;">
+  <td style="height:10px; width: 35%;"><img src="{{url_for('static',filename='images.png')}}" style="width:auto"></td>
+  <td style="width: 70%;"><h10 style="color: rgb(22, 142, 189); font-size: 50px; font-family: cursive;"> Air Pollution </h10></td>
+  <td style="text-align-last: center;"><button class="button" style="width: 300px;"><a href="home" >Air Quality Tracker Map</a></button></td>
+</table>
+<div class="navbar" style="text-align:justify;">
+    <div class="dropdown">
+      <button class="dropbtn"> <a href="#">Home</a>  
+      </button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="#">About</a>
+      </button>
+     
+    </div>
+    <div class="dropdown"> 
+        <button class="dropbtn">
+          <a href="#">Causes</a> 
+        </button>
+       
+      </div>
+      <div class="dropdown"> 
+        <button class="dropbtn"><a href="#">Health</a> 
+          
+        </button>
+        
+      </div>
+      <div class="dropdown" style="text-align: right;"> 
+        <button class="dropbtn"><a href="#">Live Map</a> 
+          
+        </button>
+        
+      </div>
+      
+  </div> 
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="{{url_for('static',filename='slide1.jpg')}}" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="{{url_for('static',filename='slide2.jpg')}}" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="{{url_for('static',filename='slide3.jpg')}}" style="width:100%">
+     
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="{{url_for('static',filename='slide4.jpg')}}" style="width:100%">
+      
+    </div>
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <table class="table2" border="2px" align="center">
+      <tr>
+        <td class="td1" style="background-color: rgb(209, 166, 97); font-size:30px;">
+        <p><b> ABOUT</b></p>
+        </td>
+        <td class="td1" style="background-color: rgb(209, 166, 97); font-size: 30px;">
+          <p><b> Cause</b></p>
+        </td>
+        <td class="td1" style="background-color: rgb(209, 166, 97); font-size: 30px;">
+          <p><b> Health</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td class="td1" style="background-color: rgb(230, 218, 57); ">
+          <img src="{{url_for('static',filename='About.jpg')}}" href="#" >
+        </td>
+        <td class="td1" style="background-color: rgb(230, 218, 57);"> 
+          <img src="{{url_for('static',filename='causes.jpg')}}" href="#">
+        </td>
+        <td class="td1" style="background-color: rgb(230, 218, 57);">
+          <img src="{{url_for('static',filename='Health.jpg')}}" href="#">
+        </td>
+      </tr>
+      <tr>
+        <td class="td1" style="background-color: rgb(247, 239, 193);">
+          <p><b>air pollution, release into the atmosphere of various gases, finely divided solids, or finely dispersed liquid aerosols at rates that exceed the natural capacity of the environment to dissipate and dilute or absorb them. These substances may reach concentrations in the air that cause undesirable health, economic, or aesthetic effects.</b></p>
+        </td>
+        <td class="td1" style="background-color: rgb(247, 239, 193);">
+          <p><b>Air pollution is caused by solid and liquid particles and certain gases that are suspended in the air. These particles and gases can come from car and truck exhaust, factories, dust, pollen, mold spores, volcanoes and wildfires. The solid and liquid particles suspended in our air are called aerosols.
+          </b></p>
+        </td>
+        <td class="td1" style="background-color: rgb(247, 239, 193);">
+          <p><b>Air pollution is a familiar environmental health hazard. We know what we’re looking at when brown haze settles over a city, exhaust billows across a busy highway, or a plume rises from a smokestack. Some air pollution is not seen, but its pungent smell alerts you.</b></p>
+        </td>
+      </tr>
+    </table>
+</body>
+<html>
