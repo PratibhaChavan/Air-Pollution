@@ -62,7 +62,7 @@ def load_aqi_data(lon1, lat1, lon2, lat2):
                 "type" : "Feature",
                 "properties" : {
                     "color" : get_color(int(value["aqi"])),
-                    "radius" : get_radius(int(value["aqi"]))
+                    "radius" : get_radius(int(value["aqi"])),
                 },
                 "geometry" : {
                     "type":"Point",
