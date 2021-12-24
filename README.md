@@ -42,8 +42,9 @@ This command creates a virtual environment inside the current folder. Visual Stu
 * Also add key-value for *WQAI_API_KEY*
 * Check deployment after Github action build completed, website link should avilable in *Github* build as well as *Azure App Service*. 
 ## Screenshot
-![Main Page](image1.jpg)
-![Map Page](image2.jpg)
+![Main Page](./static/image1.JPG.jpg)
+![Map Page](./static/image2.JPG.jpg)
+![Map Page](./static/image3.JPG.jpg)
 ### [Navigating the map](https://docs.microsoft.com/en-us/azure/azure-maps/map-accessibility#navigating-the-map)
 There are several different ways in which the map can be zoomed, panned, rotated, and pitched. Check different ways to [navigate the map](https://docs.microsoft.com/en-us/azure/azure-maps/map-accessibility#navigating-the-map) using microsoft doc.
 ### [Keyboard shortcuts](https://docs.microsoft.com/en-us/azure/azure-maps/map-accessibility#keyboard-shortcuts)
