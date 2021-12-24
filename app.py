@@ -37,11 +37,11 @@ def get_color(aqi):
 
 def get_radius(aqi):
     # Convert the AQI value to a color.
-    if aqi <= 50: return "5"
-    if aqi <= 100: return "7"
-    if aqi <= 150: return "10"
-    if aqi <= 200: return "15"
-    if aqi <= 300: return "20"
+    if aqi <= 50: return 5
+    if aqi <= 100: return 7
+    if aqi <= 150: return 10
+    if aqi <= 200: return 15
+    if aqi <= 300: return 20
     return 25
 
 def load_aqi_data(lon1, lat1, lon2, lat2):
