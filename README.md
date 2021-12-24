@@ -37,7 +37,7 @@ This command creates a virtual environment inside the current folder. Visual Stu
 
 ## Deploying App to Azure App Service
 * Deploy project to Azure App Service as part of your [continuous deployment (CD) workflows](https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-python-to-azure-app-service).
-* Configure [Azure Map key](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#access-app-settings-as-environment-variables) - In the *Azure portal*, search for and select **App Services**, and then select your app. In the app's left menu, select **Configuration > Application settings**.
+* Configure [Azure Map key](https://docs.microsoft.com/en-us/azure/app-service/configure-common#configure-app-settings) - In the *Azure portal*, search for and select **App Services**, and then select your app. In the app's left menu, select **Configuration > Application settings**.
 * In **[New application setting](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#access-app-settings-as-environment-variables)** add key *MAP_KEY* and value = *\<your map key\>*
 * Also add key-value for *WQAI_API_KEY*
 * Check deployment after Github action build completed, website link should avilable in *Github* build as well as *Azure App Service*. 
