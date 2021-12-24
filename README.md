@@ -6,8 +6,8 @@ This project is based on - [Create a Python app using Azure App Service](https:/
 ## Project Description :
 ## Azure Technology Used :
 
-## Set up your initial environment
-* Have an Azure account with an active subscription [Create an account for free.](https://azure.microsoft.com/en-us/free)
+## Set up initial environment
+* Have an Azure account with an active subscription. [Create an account for free.](https://azure.microsoft.com/en-us/free)
 * Install [Python 3.6 or higher.](https://www.python.org/downloads/) add in python path in your environment path.
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Install Visual Studio Code and the Python Extension](https://code.visualstudio.com/docs/python/python-tutorial)
