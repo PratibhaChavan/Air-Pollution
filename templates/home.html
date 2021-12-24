@@ -77,7 +77,7 @@
           // Add a bubble layer.
           map.layers.add(
             new atlas.layer.BubbleLayer(datasource, null, {
-              color: ["get", "radius"],
+              radius: ["get", "radius"],
               opacity: 0.5,
               strokeOpacity: 0,
               // Get the color from the color property.
