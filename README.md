@@ -20,7 +20,7 @@ This command creates a virtual environment inside the current folder. Visual Stu
 * Install pip packages using command ```pip install -r requirements.txt``` 
 * At the root of your application code folder, create a new environment file named ```.env```.
 * Create [Azure map account](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-account-keys) add  [primary key](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-authentication) in .env file - ```MAP_KEY=<your map key>```
-* Creare account on [World Air Quality Index](https://aqicn.org/data-platform/token/#/) and get *[WQAI_API_KEY](https://aqicn.org/data-platform/token/#/)*. Update ```WQAI_API_KEY=<WQAI api key>```
+* Create account on [World Air Quality Index](https://aqicn.org/data-platform/token/#/) and get *[WQAI_API_KEY](https://aqicn.org/data-platform/token/#/)*. Update ```WQAI_API_KEY=<WQAI api key>```
 
 ## Run and debug the app
 * Set up Visual Studio Code to run and debug a Flask app. Then, use your browser to see the app in action.
