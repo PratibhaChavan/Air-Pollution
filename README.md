@@ -20,6 +20,7 @@ This command creates a virtual environment inside the current folder. Visual Stu
 * Install pip packages using command ```pip install -r requirements.txt``` 
 * At the root of your application code folder, create a new environment file named ```.env```.
 * Create [Azure map account](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-account-keys) add  [primary key](https://docs.microsoft.com/en-us/azure/azure-maps/how-to-manage-authentication) in .env file - ```MAP_KEY=<your map key>```
+* Creare account on [World Air Quality Index](https://aqicn.org/data-platform/token/#/) and get *[WQAI_API_KEY](https://aqicn.org/data-platform/token/#/)*. Update ```WQAI_API_KEY=<WQAI api key>```
 
 ## Run and debug the app
 * Set up Visual Studio Code to run and debug a Flask app. Then, use your browser to see the app in action.
@@ -38,6 +39,7 @@ This command creates a virtual environment inside the current folder. Visual Stu
 * Deploy project to Azure App Service as part of your [continuous deployment (CD) workflows](https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-python-to-azure-app-service).
 * Configure [Azure Map key](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#access-app-settings-as-environment-variables) - In the *Azure portal*, search for and select **App Services**, and then select your app. In the app's left menu, select **Configuration > Application settings**.
 * In **[New application setting](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#access-app-settings-as-environment-variables)** add key *MAP_KEY* and value = *\<your map key\>*
+* Also add key-value for *WQAI_API_KEY*
 * Check deployment after Github action build completed, website link should avilable in *Github* build as well as *Azure App Service*. 
 ## Screenshot
 ![Main Page](image1.jpg)
