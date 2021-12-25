@@ -2,10 +2,14 @@
 
 This project is based on - [Create a Python app using Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask). Please read same for more information.
 
-## Problem Statement/Opportunity : Today air pollution has been one of the significant problems to deal with for any nation. People experience a wide range of health effects from being exposed to air pollution.Like people, animals, and plants, entire ecosystems can suffer effects from air pollution. Anybody can take steps to reduce air pollution. So in this project we are going to track air polluted areas using azure map service. It will be easy to reduce pollution of those areas by taking some precautions.
+## Problem Statement/Opportunity : 
+Today air pollution has been one of the significant problems to deal with for any nation. People experience a wide range of health effects from being exposed to air pollution.Like people, animals, and plants, entire ecosystems can suffer effects from air pollution. Anybody can take steps to reduce air pollution. So in this project we are going to track air polluted areas using azure map service. It will be easy to reduce pollution of those areas by taking some precautions.
 ## Project Description :
+Air pollution can be created by both manmade and natural sources. Natural sources include windblown or kicked-up dust, dirt and sand, volcanic smoke, and burning materials. Manmade sources, meaning that pollution is created by the actions of human beings, tend to be the leading contributor to air pollution in cities and are inherently more able to be influenced by regulations. Manmade sources primarily include various forms of combustion, such as from gas-powered transportation (planes, trains, and automobiles) and industrial businesses (power plants, refineries, and factories), biomass burning (the burning of plant matter or coal for heating, cooking, and energy), and agriculture. In this project we are going to track  air polluted areas which will be helpful to take action to prevent air pollution in detected polluted areas.This project is developed using visual Studio Code editor and run in python environment.This project containing CSS and HTML for web page designing. And the very imaportant azure service which is used to track Air Quality is Azure Map Service. Which will show you  global map of Air Quality. 
 ## Azure Technology Used :
-
+* App Service
+* Visual Studio Code
+* Azure Maps
 ## Set up initial environment
 * Have an Azure account with an active subscription. [Create an account for free.](https://azure.microsoft.com/en-us/free)
 * Install [Python 3.6 or higher.](https://www.python.org/downloads/) add in python path in your environment path.
