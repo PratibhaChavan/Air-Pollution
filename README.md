@@ -2,7 +2,7 @@
 
 This project is based on - [Create a Python app using Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask). Please read same for more information.
 
-## Problem Statement/Opportunity :
+## Problem Statement/Opportunity : Today air pollution has been one of the significant problems to deal with for any nation. People experience a wide range of health effects from being exposed to air pollution.Like people, animals, and plants, entire ecosystems can suffer effects from air pollution. Anybody can take steps to reduce air pollution. So in this project we are going to track air polluted areas using azure map service. It will be easy to reduce pollution of those areas by taking some precautions.
 ## Project Description :
 ## Azure Technology Used :
 
