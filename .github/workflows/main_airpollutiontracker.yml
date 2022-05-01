@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'AirPollutionTracker'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A27FDE45BC494205A9D4B1F74763DFCB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_391B7EC0C6FB4AF5944506A8BDBD5762 }}
